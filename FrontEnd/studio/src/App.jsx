@@ -1,14 +1,16 @@
 import './App.css'
-import Landing from './Components/Landing'
+import Dashboard from './Components/Dashboard'
+/*import Landing from './Components/Landing'*/
 
 function App() {
   
 
   return (
     <>
-      <div className="container">
+     {/* <div className="container">
         <Landing/>
-      </div>
+      </div>*/}
+      <Dashboard/>
     </>
   )
 }
